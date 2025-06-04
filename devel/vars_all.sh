@@ -6,7 +6,7 @@ then
 fi
 if [ -z "$ONLY" ]
 then
-  all="homebrew"
+  all="maas"
 else
   all=$ONLY
 fi

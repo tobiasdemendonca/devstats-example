@@ -1,15 +1,16 @@
 ---
 projects:
-  homebrew:
+  maas:
     order: 1
-    name: Homebrew
+    name: MAAS
     status: "-"
     command_line:
-      - Homebrew
+      - canonical/maas
+      - maas/maas
     start_date: 2015-01-01T00:00:00Z
     join_date: null
-    psql_db: homebrew
-    main_repo: 'Homebrew/brew'
+    psql_db: maas
+    main_repo: 'canonical/maas'
     annotation_regexp: '^\d+\.\d+\.\d+$'
     files_skip_pattern: ''
     # disabled: true

@@ -5,7 +5,7 @@ vars:
     command: [hostname]
   - name: full_name
     type: s
-    value: Homebrew
+    value: MAAS
   - name: lower_name
     type: s
-    value: homebrew
+    value: maas

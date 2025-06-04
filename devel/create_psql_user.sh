@@ -13,7 +13,7 @@ fi
 
 if [ -z "$ONLY" ]
 then
-  all="homebrew devstats"
+  all="maas devstats"
 else
   all=$ONLY
 fi
